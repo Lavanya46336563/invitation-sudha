@@ -88,7 +88,7 @@ function Cover({ onOpen }) {
         <div style={{ position: 'relative', width: 220, height: 150 }}>
           <motion.div animate={opening ? { y: -70, opacity: 1 } : { y: 0, opacity: 0 }} transition={{ delay: .6, duration: .8 }}
             style={{ position: 'absolute', left: '50%', top: 30, width: 168, height: 108, marginLeft: -84, background: 'linear-gradient(#fff,#fdf8ee)', borderRadius: 4, border: '1px solid rgba(201,148,42,.4)', boxShadow: '0 10px 24px rgba(90,50,0,.18)', zIndex: 3, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 4 }}>
-            <span style={{ fontFamily: 'var(--font-script)', fontSize: 20, color: 'var(--gold-deep)' }}>S &amp; R</span>
+            <span style={{ fontFamily: 'var(--font-script)', fontSize: 20, color: 'var(--gold-deep)' }}>S &amp; S</span>
             <span style={{ width: 30, height: 1, background: 'var(--gold)', opacity: .5 }} />
             <span style={{ fontFamily: 'var(--font-label)', fontSize: 8, letterSpacing: '.15em', textTransform: 'uppercase', color: 'var(--text-medium)' }}>10 · 12 · 2026</span>
           </motion.div>
