@@ -1,11 +1,12 @@
 :root {
-  --gold: #c9942a;
-  --gold-light: #f0d080;
-  --gold-deep: #8f6414;
-  --maroon: #6b1e48;
-  --cream: #fdf8f0;
-  --text-dark: #2a1a0a;
-  --text-medium: #6b5a47;
+  --gold: #C9A45C;
+  --gold-light: #E8D5A8;
+  --gold-deep: #8F6B35;
+  --maroon: #3A1728;
+  --cream: #FDF8F0;
+  --text-dark: #2A1A0A;
+  --text-medium: #6B5A47;
+
   --font-script: "Great Vibes", cursive;
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-label: "Jost", system-ui, sans-serif;
@@ -54,10 +55,10 @@ p {
   }
 }
 .glass-card {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(41, 26, 46, 0.38);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(214, 179, 106, 0.38);
   border-radius: 18px;
 }
 .divider {
