@@ -54,7 +54,7 @@ function Seal() {
       <circle cx="29" cy="29" r="24" fill="url(#sealWax)" stroke="rgba(255,255,255,0.25)" />
       <circle cx="29" cy="29" r="18.5" fill="none" stroke="rgba(240,208,128,0.55)" strokeWidth=".75" />
       <text x="29" y="34" textAnchor="middle" fontFamily="var(--font-display)" fontStyle="italic" fontWeight="600" fontSize="17" fill="var(--gold-light)">
-        S<tspan fontSize="11" dy="-1">&amp;</tspan><tspan dy="1">R</tspan>
+        S<tspan fontSize="11" dy="-1">&amp;</tspan><tspan dy="1">S</tspan>
       </text>
     </svg>
   )
@@ -116,7 +116,7 @@ function Hero() {
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(rgba(0,0,0,.55) 0%, rgba(0,0,0,.15) 20%, transparent 38%, transparent 55%, rgba(0,0,0,.6) 100%)' }} />
       <div style={{ position: 'relative', zIndex: 2, display: 'flex', flexDirection: 'column', height: '100%' }}>
         <Reveal style={{ padding: 'clamp(28px,5vw,56px) 24px 18px', textAlign: 'center' }}>
-          <div style={{ width: 'clamp(54px,6vw,76px)', height: 'clamp(68px,6vw,76px)', margin: '0 auto 10px', borderRadius: '50%', border: '1px solid rgba(255,255,255,.85)', background: 'rgba(0,0,0,.22)', backdropFilter: 'blur(6px)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-script)', fontSize: 'clamp(20px,2.4vw,30px)', color: '#fff', textShadow: '0 1px 6px rgba(0,0,0,.7)' }}>S&amp;R</div>
+          <div style={{ width: 'clamp(54px,6vw,76px)', height: 'clamp(68px,6vw,76px)', margin: '0 auto 10px', borderRadius: '50%', border: '1px solid rgba(255,255,255,.85)', background: 'rgba(0,0,0,.22)', backdropFilter: 'blur(6px)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-script)', fontSize: 'clamp(20px,2.4vw,30px)', color: '#fff', textShadow: '0 1px 6px rgba(0,0,0,.7)' }}>S&amp;S</div>
           <div className="eyebrow" style={{ color: '#fff', textShadow: '0 1px 6px rgba(0,0,0,.7)' }}>Together With Our Families</div>
         </Reveal>
         <div style={{ flex: 1, minHeight: 140 }} />
@@ -220,7 +220,7 @@ function Final() {
       <div style={{ position: 'absolute', inset: 0, backgroundImage: 'url("photos/couple3.jpeg")', backgroundSize: 'cover', backgroundPosition: 'center 25%' }} />
       <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(circle at 50% 30%, rgba(255,250,240,.80) 0%, rgba(245,236,224,.85) 100%)' }} />
       <div className="content-col" style={{ position: 'relative', zIndex: 2 }}>
-        <Reveal style={{ width: 56, height: 56, margin: '0 auto 18px', borderRadius: '50%', border: '1px solid var(--gold)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-script)', fontSize: 22, color: 'var(--gold-deep)' }}>S&amp;R</Reveal>
+        <Reveal style={{ width: 56, height: 56, margin: '0 auto 18px', borderRadius: '50%', border: '1px solid var(--gold)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-script)', fontSize: 22, color: 'var(--gold-deep)' }}>S&amp;S</Reveal>
         <Reveal as="h2" className="gold-shimmer" style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(42px,7vw,72px)', marginBottom: 10, fontWeight: 400 }}>With Love &amp; Gratitude</Reveal>
         <Reveal as="p" style={{ fontSize: 'clamp(16px,1.8vw,20px)', color: 'var(--text-medium)', maxWidth: 460, margin: '0 auto 22px', lineHeight: 1.6 }}>Your presence is the greatest gift we could ask for. We can't wait to begin this new chapter surrounded by the people we love most.</Reveal>
         <Reveal className="divider" />
