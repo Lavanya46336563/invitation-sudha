@@ -3,7 +3,7 @@ import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion'
 
 const WEDDING = new Date('2026-12-10T10:30:00+05:30')
 const GALLERY = [
-  ['/hero.jpg','Saravanan and Ragasudha together'],['/gallery1.jpg','A candid laugh together'],
+  ['/hero.jpg','Sudha and Saravanan  together'],['/gallery1.jpg','A candid laugh together'],
   ['/couple2.jpg','A close moment'],['/gallery2.jpg','A joyful greeting'],['/gallery3.jpg','Exchanging a bouquet'],
   ['/gallery4.jpg','A close moment'],['/gallery5.jpg','With friends'],['/gallery6.jpg','With family'],
   ['/gallery7.jpg','Together with everyone'],['/gallery8.jpg','A close circle'],
@@ -76,7 +76,7 @@ function Cover({ onOpen }) {
       <Corner pos={{ bottom: 24, left: 24, transform: 'scaleY(-1)' }} />
       <Corner pos={{ bottom: 24, right: 24, transform: 'scale(-1,-1)' }} />
       <motion.div animate={{ opacity: opening ? 0 : 1 }} initial={{ opacity: 0 }} transition={{ delay: 0.5 }} className="eyebrow" style={{ marginBottom: 10}}>With Love &amp; Joy</motion.div>
-      <motion.div animate={{ opacity: opening ? 0 : 1 }} initial={{ opacity: 0 }} transition={{ delay: 0.5 }} className="gold-shimmer" style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(34px,5.5vw,60px)', textAlign: 'center', lineHeight: 1.15, padding: '0 20px' }}>Saravanan &amp; Ragasudha</motion.div>
+      <motion.div animate={{ opacity: opening ? 0 : 1 }} initial={{ opacity: 0 }} transition={{ delay: 0.5 }} className="gold-shimmer" style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(34px,5.5vw,60px)', textAlign: 'center', lineHeight: 1.15, padding: '0 20px' }}>Sudha &amp; Saravanan</motion.div>
       <motion.p animate={{ opacity: opening ? 0 : 1 }} initial={{ opacity: 0 }} transition={{ delay: 0.5 }} style={{ fontStyle: 'italic', fontSize: 14, color: 'var(--text-medium)', marginTop: 4 }}>request the pleasure of your company</motion.p>
       <div style={{ display: 'flex', alignItems: 'center', gap: 8, margin: '10px 0 22px' }}>
         <span style={{ width: 26, height: 1, background: 'var(--gold)', opacity: .6 }} />
@@ -121,9 +121,9 @@ function Hero() {
         </Reveal>
         <div style={{ flex: 1, minHeight: 140 }} />
         <Reveal className="glass-card" delay={.2} style={{ padding: 'clamp(20px,3vw,40px) clamp(24px,4vw,56px) clamp(32px,4vw,48px)', margin: '0 auto clamp(24px,4vw,44px)', maxWidth: 560, width: 'calc(100% - 24px)', textAlign: 'center' }}>
-          <div style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(46px,8vw,84px)', lineHeight: 1.15, color: '#fff' }}>Saravanan</div>
+          <div style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(46px,8vw,84px)', lineHeight: 1.15, color: '#fff' }}>Sudha</div>
           <div style={{ fontFamily: 'var(--font-label)', fontSize: 'clamp(13px,1.4vw,16px)', letterSpacing: '.35em', color: 'var(--gold-light)', margin: '2px 0' }}>AND</div>
-          <div style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(46px,8vw,84px)', lineHeight: 1.15, color: '#fff' }}>Ragasudha</div>
+          <div style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(46px,8vw,84px)', lineHeight: 1.15, color: '#fff' }}>Saravanan</div>
           <div className="divider" style={{ background: 'var(--gold-light)' }} />
           <div style={{ fontFamily: 'var(--font-label)', fontSize: 'clamp(13px,1.4vw,16px)', letterSpacing: '.15em', color: 'rgba(255,255,255,.85)' }}>10 · 12 · 2026 &nbsp;·&nbsp; Aruppukottai</div>
         </Reveal>
@@ -224,7 +224,7 @@ function Final() {
         <Reveal as="h2" className="gold-shimmer" style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(42px,7vw,72px)', marginBottom: 10, fontWeight: 400 }}>With Love &amp; Gratitude</Reveal>
         <Reveal as="p" style={{ fontSize: 'clamp(16px,1.8vw,20px)', color: 'var(--text-medium)', maxWidth: 460, margin: '0 auto 22px', lineHeight: 1.6 }}>Your presence is the greatest gift we could ask for. We can't wait to begin this new chapter surrounded by the people we love most.</Reveal>
         <Reveal className="divider" />
-        <Reveal as="p" className="eyebrow" style={{ marginTop: 10 }}>#SaravananWedsRagasudha</Reveal>
+        <Reveal as="p" className="eyebrow" style={{ marginTop: 10 }}>#SudhaWedsSaravanan</Reveal>
       </div>
     </section>
   )
